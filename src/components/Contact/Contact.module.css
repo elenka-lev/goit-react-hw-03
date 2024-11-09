@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.item {
+    font-size: 25px;
+   
+    & svg {
+        margin-right: 10px;
+    }
+}

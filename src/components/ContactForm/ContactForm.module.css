@@ -1,0 +1,35 @@
+form {
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .input {
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 7px;
+        width: 70%;
+        margin-bottom: 30px;
+        position: relative;
+        outline: none;
+        padding: 8px 20px;
+        font-size: 25px;
+    }
+        .input:hover,
+        .input:focus {
+            border: 1px solid blue;
+        }
+    .label {
+        font-size: 25px;
+    }
+    & span {
+        color: red;
+        font-size: 20px;
+            
+    }
+    & button {
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    
+}
