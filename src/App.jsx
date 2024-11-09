@@ -20,7 +20,7 @@ const App = () => {
   const searchContacts = contacts.filter((contact) => contact.name.toLowerCase().trim().includes(searchQuery.toLowerCase().trim()));
   
   useEffect(() => {
-    window.localStorage.setItem('saved-Contacts', JSON.stringify(contacts));
+    window.localStorage.setItem('saved-сontacts', JSON.stringify(contacts));
   }, [contacts]);
   const deleteContact = (contactId) => {
     setContacts((prev) => {
